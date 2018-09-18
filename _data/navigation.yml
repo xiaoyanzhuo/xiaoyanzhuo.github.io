@@ -1,5 +1,11 @@
 header:
   - titles:
+      en:       Home
+      zh:       首页
+      zh-Hans:  首页
+      zh-Hant:  首頁
+    url:        /index.html
+  - titles:
       en:       Archive
       zh:       归档
       zh-Hans:  归档
@@ -11,3 +17,9 @@ header:
       zh-Hans:  关于
       zh-Hant:  關於
     url:        /about.html
+  - titles:
+      en:       GitHub
+      zh:       GitHub
+      zh-Hans:  GitHub
+      zh-Hant:  GitHub
+    url:        https://github.com/xiaoyanzhuo/xiaoyanzhuo.github.io
