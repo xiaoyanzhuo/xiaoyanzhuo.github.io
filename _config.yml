@@ -157,6 +157,7 @@ exclude:
   - LICENSE
   - README-*.md
   - README.md
+  - post.sh
 
 defaults:
   - scope:
