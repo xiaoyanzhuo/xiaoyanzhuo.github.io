@@ -4,7 +4,8 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
-#
+## !USE TEXT THEME
+# theme: jekyll-text-theme
 # ,--------.      ,--.   ,--. ,--.
 # '--.  .--',---.  \  `.'  /,-'  '-.
 #    |  |  | .-. :  .'    \ '-.  .-'
@@ -23,7 +24,7 @@ baseurl : # does not include hostname
 title   : Xiaoyan's Blog
 description: > # this means to ignore newlines until "Language & timezone"
   Xiaoyan Zhuo's Site | yanzi的小确幸之屋
-theme: jekyll-text-theme
+# theme: jekyll-text-theme
 
 ## => Language and Timezone
 ##############################
