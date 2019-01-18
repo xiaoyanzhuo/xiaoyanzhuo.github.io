@@ -4,6 +4,7 @@ title: About cache
 key: 20190118
 tags:
 - Linux
+- tool
 mathjax: true
 ---
 
