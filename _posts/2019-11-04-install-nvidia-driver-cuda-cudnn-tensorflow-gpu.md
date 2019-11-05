@@ -15,14 +15,14 @@ Installing Nvidia driver, CUDA, cuDNN, Tensorflow-gpu/Keras is not an easy task.
 
 <!--more-->
 
-### 1. Install Ubuntu (18.04 LTS)
-#### 1.1 Download Ubuntu ISO File
+## 1. Install Ubuntu (18.04 LTS)
+### 1.1 Download Ubuntu ISO File
 `https://ubuntu.com/download/desktop`
-#### 1.2 Create bootable disk
+### 1.2 Create bootable disk
 - Rufus (use Rufus to create bootable disk, which can be download from [here](https://rufus.ie/).
 - [Tutorials](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0)
 
-#### 1.3 Install Ubuntu system
+### 1.3 Install Ubuntu system
 - Tutorials:
 	- [Ubuntu 18.04 LTS Desktop Installation Guide with Screenshots](https://www.linuxtechi.com/ubuntu-18-04-lts-desktop-installation-guide-screenshots/)
 	- [Tutorial-install-ubuntu-desktop](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0)
@@ -40,8 +40,8 @@ $ cat /proc/cpuinfo   # cpu info
 ~~~
 
 
-### 2. Network Configuration
-#### 2.1 gateway/interface setting
+## 2. Network Configuration
+### 2.1 gateway/interface setting
 - *Check network status before configration*: In Ubuntu 18.04 LTS, `net-tools` is not installed by default, which means, `ifconfig` or `route` cannot be used. Instead, we can use `ip -c a` check the `ip` information, such as port name, which port status is `up`, etc. You can also use `ping` to check the connection. In my case, before setting the gateway correctly, I cannot use internet. 
 
 ~~~
@@ -96,7 +96,7 @@ $ ping www.google.com
 ~~~
 
    
-#### 2.2 enable ssh 
+### 2.2 enable ssh 
 In Ubuntu 18.04 LTS, `openssh-server` is not installed by default. To install it:
 
 ~~~
@@ -114,8 +114,8 @@ $ sudo ufw status
 ~~~
 
    
-### 3. Install GPU driver + CUDA + cuDNN + tensorflow-gpu
-#### 3.1 Install GPU driver
+## 3. Install GPU driver + CUDA + cuDNN + tensorflow-gpu
+### 3.1 Install GPU driver
 ~~~
 $ sudo lshw -c display
 $ sudo ubuntu-drivers devices
@@ -139,10 +139,10 @@ More details can be found [CUDA Compatibility in Nvidia official docs](https://d
 
 After install driver, we can either use regular way to install CUDA, cuDNN or tensorflow-gpu one by one, or we can install them together while using anaconda. We will regular way first, you can skip this part, directly go to Anoconda part. 
 
-### Method 1
+## Method 1
 Covering [3.2 Install CUDA](#3.2-install-cuda), [3.3 Install cuDNN](#3.3-install-cudnn), [3.3 Install cuDNN](3.3-install-cudnn).
 
-#### 3.2 Install CUDA (toolkit)
+### 3.2 Install CUDA (toolkit)
 ~~~
 $ cat /etc/lsb-release 
 $ gcc --version 
@@ -220,7 +220,7 @@ sudo apt-get update
 sudo apt-get -y install cuda
 ~~~
 
-#### 3.3 Install cuDNN
+### 3.3 Install cuDNN
 1. Register at nvidia developers, download [cuDNN](https://developer.nvidia.com/cudnn). Download 10.0 runtime & developer library for 18.04 (Files cuDNN7.6.x Runtime Library for Ubuntu18.04 (Deb) & cuDNN v7.6.x Developer Library for Ubuntu18.04 (Deb)).
 
 2. Open the files with software manager and install them. 
@@ -233,14 +233,14 @@ $ whereis cudnn.h
 $ nvcc --version
 ~~~
 
-#### 3.4 install tensorflow-gpu / keras-gpu
+### 3.4 install tensorflow-gpu / keras-gpu
 ~~~
 sudo apt-get install libcupti-dev
 pip3 install tensorflow-gpu  
 ~~~
 
-### Method 2
-#### 3.5 Install CUDA toolkit/cuDNN/tensorflow-gpu using Anaconda
+## Method 2
+### 3.5 Install CUDA toolkit/cuDNN/tensorflow-gpu using Anaconda
 
 **NOTE**: Before starting following steps, you need to install nvidia driver first, checking [3.1 Install GPU driver](#3.1-install-gpu-driver)  
 
@@ -310,7 +310,7 @@ $ conda install -c anaconda keras-gpu
 ~~~
 
 
-##### [References]
+### [References]
 
 > Install Nvidia Driver
 
