@@ -137,7 +137,7 @@ More details can be found [CUDA Compatibility in Nvidia official docs](https://d
 
 - Different CUDA versions shown by using `nvcc --version` and `nvidia-smi`: CUDA has 2 primary APIs: the runtime and the driver API. Both have a corresponding version. In my case, I installed latest 430 driver, when use `nvidia-smi`, you can CUDA version is `10.2` and I installed CUDA toolkit 10.0, CUDA version is `10.0` when use `nvcc --version`. More discussions can be found [here](https://stackoverflow.com/questions/53422407/different-cuda-versions-shown-by-nvcc-and-nvidia-smi).
 
-After install driver, we can either use regular way to install CUDA, cuDNN or tensorflow-gpu one by one, or we can install them together while using anaconda. We will regular way first, you can skip this part, directly go to Anoconda part. 
+After install driver, we can either use regular way to install CUDA, cuDNN or tensorflow-gpu one by one, or we can install them together while using anaconda. We will go through regular way first so we get idea about the entire setup work. Or, if you just want to setup env and save, you can skip this part; directly go to Anoconda part. 
 
 ## Method 1
 Covering [3.2 Install CUDA](#3.2-install-cuda), [3.3 Install cuDNN](#3.3-install-cudnn), [3.3 Install cuDNN](3.3-install-cudnn).
@@ -294,12 +294,28 @@ sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
 print(sess.run(sum))
 ~~~
 
-> Example: test-keras.py
+> Example: test-multi-gpus.py
 
 ~~~
-from keras import backend as K
-print(K.tensorflow_backend._get_available_gpus())
-~~~
+import tensorflow as tf
+tf.debugging.set_log_device_placement(True)
+
+gpus = tf.config.experimental.list_logical_devices('GPU')
+if gpus:
+  # Replicate your computation on multiple GPUs
+  c = []
+  for gpu in gpus:
+    with tf.device(gpu.name):
+      a = tf.constant([[1.0, 2.0, 3.0], [4.0, 5.0, 6.0]])
+      b = tf.constant([[1.0, 2.0], [3.0, 4.0], [5.0, 6.0]])
+      c.append(tf.matmul(a, b))
+
+  with tf.device('/CPU:0'):
+    matmul_sum = tf.add_n(c)
+
+  print(matmul_sum)
+~~~ 
+
 
 We can also use `keras-gpu` to install tensorflow-gpu and keras together. The tensorflow version is 2.0 and keras version is 2.2.4 (updated till 11/05/2019) 
 
@@ -307,6 +323,13 @@ We can also use `keras-gpu` to install tensorflow-gpu and keras together. The te
 $ conda create --name keras-gpu
 $ conda activate keras-gpu
 $ conda install -c anaconda keras-gpu 
+~~~
+
+> Example: test-keras.py
+
+~~~
+from keras import backend as K
+print(K.tensorflow_backend._get_available_gpus())
 ~~~
 
 
