@@ -16,13 +16,13 @@ Installing Nvidia driver, CUDA, cuDNN, Tensorflow-gpu/Keras is not an easy task.
 <!--more-->
 
 ## 1. Install Ubuntu (18.04 LTS)
-### 1.1 Download Ubuntu ISO File
-`https://ubuntu.com/download/desktop`
-### 1.2 Create bootable disk
+
+### 1.1 Create bootable disk
+- Download Ubuntu ISO File: `https://ubuntu.com/download/desktop`
 - Rufus (use Rufus to create bootable disk, which can be download from [here](https://rufus.ie/).
 - [Tutorials](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0)
 
-### 1.3 Install Ubuntu system
+### 1.2 Install Ubuntu system
 - Tutorials:
 	- [Ubuntu 18.04 LTS Desktop Installation Guide with Screenshots](https://www.linuxtechi.com/ubuntu-18-04-lts-desktop-installation-guide-screenshots/)
 	- [Tutorial-install-ubuntu-desktop](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0)
