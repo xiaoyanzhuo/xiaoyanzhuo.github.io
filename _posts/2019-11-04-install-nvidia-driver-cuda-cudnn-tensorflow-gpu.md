@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Install GPU driver + CUDA + cuDNN + tensorflow-gpu
+title: Install GPU driver + CUDA + cuDNN + Tensorflow
 key: 20191104
 tags:
 - Linux
@@ -10,7 +10,7 @@ tags:
 mathjax: true
 ---
 
-Installing Nvidia driver, CUDA, cuDNN is not an easy task. In this article we will introduce how to install Nvidia driver, CUDA, cuDNN in Ubuntu 18.04 LTS. The article will introduce two ways: one regular way and one simple, easy way. Thanks to Anaconda, which make life easier. 
+Installing Nvidia driver, CUDA, cuDNN, Tensorflow-gpu/Keras is not an easy task. In this article we will introduce how to install Nvidia driver, CUDA, cuDNN, tensorflow-gpu/keras-gpu in Ubuntu 18.04 LTS. The article will introduce two ways: one regular way(method 1) and one simple, easy way(method 2). Thanks to Anaconda, which makes our life easier!
 
 <!--more-->
 
@@ -24,8 +24,7 @@ Installing Nvidia driver, CUDA, cuDNN is not an easy task. In this article we wi
 #### 1.3 Install Ubuntu system
 - Tutorials:
 	- [Ubuntu 18.04 LTS Desktop Installation Guide with Screenshots](https://www.linuxtechi.com/ubuntu-18-04-lts-desktop-installation-guide-screenshots/)
-	- [Tutorial-install-ubuntu-desktop]
-(https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0)
+	- [Tutorial-install-ubuntu-desktop](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0)
 - Others
   - [Disk partition on Ubuntu 18.04 (swap)](https://askubuntu.com/questions/1030231/ubuntu-18-04-lts-disk-partition-recomendations)
 
@@ -315,8 +314,7 @@ $ conda install -c anaconda keras-gpu
 
 > Install Nvidia Driver
 
-- [2 Ways to Install Nvidia Driver on Ubuntu 18.04 (GUI & Command Line)]
-(https://www.linuxbabe.com/ubuntu/install-nvidia-driver-ubuntu-18-04)
+- [2 Ways to Install Nvidia Driver on Ubuntu 18.04 (GUI & Command Line)](https://www.linuxbabe.com/ubuntu/install-nvidia-driver-ubuntu-18-04)
 - [How to install NVIDIA drivers on Ubuntu 18.04 LTS Bionic Beaver Linux](https://www.mvps.net/docs/install-nvidia-drivers-ubuntu-18-04-lts-bionic-beaver-linux/)
 - [NVIDIA CUDA Installation Guide for Linux](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
 
@@ -329,10 +327,9 @@ $ conda install -c anaconda keras-gpu
 > Method 2: using Anoconda 
 
 - [How To Install Anaconda on Ubuntu 18.04 [Quickstart]](https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart)
-- [Compatibility with Cuda 10.1?]
-(https://github.com/tensorflow/tensorflow/issues/26289#issuecomment-515494697)
+- [Compatibility with Cuda 10.1?](https://github.com/tensorflow/tensorflow/issues/26289#issuecomment-515494697)
 - [TensorFlow 1.14.0 is not using GPU](https://stackoverflow.com/questions/56786677/tensorflow-1-14-0-is-not-using-gpu)
-- [TF versions vs. required CUDA versions table] (https://www.tensorflow.org/install/source#linux).
+- [TF versions vs. required CUDA versions table](https://www.tensorflow.org/install/source#linux).
 - [TF for cuda_10.0 for ubuntu 18.04](https://www.tensorflow.org/install/gpu#ubuntu_1804_cuda_10)
 - [how-to-install-keras-with-gpu-support](https://stackoverflow.com/questions/54689096/how-to-install-keras-with-gpu-support)
 - [Anaconda: keras-gpu](https://anaconda.org/anaconda/keras-gpu)
@@ -345,10 +342,8 @@ $ conda install -c anaconda keras-gpu
      
 > Others:
 
-- [use linux screen: keep session available]
-(https://linuxize.com/post/how-to-use-linux-screen/)
-- [systemback: restore system]
-(https://vitux.com/how-to-restore-your-ubuntu-linux-system-to-its-previous-state/)
+- [use linux screen: keep session available](https://linuxize.com/post/how-to-use-linux-screen/)
+- [systemback: restore system](https://vitux.com/how-to-restore-your-ubuntu-linux-system-to-its-previous-state/)
      
   
 
