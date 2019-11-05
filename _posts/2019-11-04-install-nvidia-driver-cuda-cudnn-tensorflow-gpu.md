@@ -94,8 +94,6 @@ $ ip r
 $ ping www.google.com
 ~~~
 
-[Gateway setting for previous ubuntu version](https://www.cyberciti.biz/faq/howto-debian-ubutnu-set-default-gateway-ipaddress/)
-
    
 #### 2.2 enable ssh 
 In Ubuntu 18.04 LTS, `openssh-server` is not installed by default. To install it:
@@ -113,8 +111,7 @@ $ sudo ufw allow ssh
 $ sudo ufw enable
 $ sudo ufw status
 ~~~
-[Quick Tip: Enable Secure Shell (SSH) Service in Ubuntu 18.04]
-(http://tipsonubuntu.com/2018/05/31/enable-secure-shell-ssh-service-ubuntu-18-04/)
+
    
 ### 3. Install GPU driver + CUDA + cuDNN + tensorflow-gpu
 #### 3.1 Install GPU driver
@@ -338,6 +335,11 @@ $ conda install -c anaconda keras-gpu
 - [Use a GPU\-TensorFlow](https://www.tensorflow.org/guide/gpu)
 - [check gpu works](https://stackoverflow.com/questions/53221523/how-to-check-if-tensorflow-is-using-all-available-gpus)
 - [To get TF 1.x like behaviour in TF 2.0 one can run](https://stackoverflow.com/questions/55142951/tensorflow-2-0-attributeerror-module-tensorflow-has-no-attribute-session)
+
+> Network configuration:
+
+- [Quick Tip: Enable Secure Shell (SSH) Service in Ubuntu 18.04](http://tipsonubuntu.com/2018/05/31/enable-secure-shell-ssh-service-ubuntu-18-04/)
+- [Gateway setting for previous ubuntu version](https://www.cyberciti.biz/faq/howto-debian-ubutnu-set-default-gateway-ipaddress/)
      
 > Others:
 
