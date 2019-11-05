@@ -140,7 +140,7 @@ More details can be found [CUDA Compatibility in Nvidia official docs](https://d
 After install driver, we can either use regular way to install CUDA, cuDNN or tensorflow-gpu one by one, or we can install them together while using anaconda. We will regular way first, you can skip this part, directly go to Anoconda part. 
 
 ### Method 1
-Covering [3.2 Install CUDA](#3.2 Install CUDA), [3.3 Install cuDNN](#3.3 Install cuDNN), [3.3 Install cuDNN](3.3 Install cuDNN).
+Covering [3.2 Install CUDA](#3.2-install-cuda), [3.3 Install cuDNN](#3.3-install-cudnn), [3.3 Install cuDNN](3.3-install-cudnn).
 
 #### 3.2 Install CUDA (toolkit)
 ~~~
@@ -242,7 +242,7 @@ pip3 install tensorflow-gpu
 ### Method 2
 #### 3.5 Install CUDA toolkit/cuDNN/tensorflow-gpu using Anaconda
 
-**NOTE**: Before starting following steps, you need to install nvidia driver first, checking [3.1 Install GPU driver](#3.1 Install GPU driver)  
+**NOTE**: Before starting following steps, you need to install nvidia driver first, checking [3.1 Install GPU driver](#3.1-install-gpu-driver)  
 
 - Install Anaconda:
 
