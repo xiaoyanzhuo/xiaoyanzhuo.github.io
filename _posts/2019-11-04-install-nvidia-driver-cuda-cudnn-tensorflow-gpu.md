@@ -8,6 +8,7 @@ tags:
 - ML/DL
 - Tensorflow
 mathjax: true
+number_sections: true
 ---
 
 Installing Nvidia driver, CUDA, cuDNN, Tensorflow-gpu/Keras is not an easy task. We need to figure out how to match driver with hardware, match cuda/cudnn libraries versions(pretty complicated as known), and also need to make sure ML/DL frameworks(e.g., tensorflow) version can be compatible with the installed cuda version, etc. In this article we will introduce how to install Nvidia driver, CUDA, cuDNN, tensorflow-gpu/keras-gpu in Ubuntu 18.04 LTS. The article will cover two ways: one regular way(Method 1) and one simple, easy way(Method 2). Thanks to Anaconda, which makes our life easier!
