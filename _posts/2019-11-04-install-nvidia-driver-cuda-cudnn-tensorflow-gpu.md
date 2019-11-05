@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Install GPU driver + CUDA + cuDNN + Tensorflow
+title: Install GPU driver + CUDA + cuDNN + Tensorflow on Ubuntu 18.04
 key: 20191104
 tags:
 - Linux
@@ -10,7 +10,7 @@ tags:
 mathjax: true
 ---
 
-Installing Nvidia driver, CUDA, cuDNN, Tensorflow-gpu/Keras is not an easy task. In this article we will introduce how to install Nvidia driver, CUDA, cuDNN, tensorflow-gpu/keras-gpu in Ubuntu 18.04 LTS. The article will introduce two ways: one regular way(method 1) and one simple, easy way(method 2). Thanks to Anaconda, which makes our life easier!
+Installing Nvidia driver, CUDA, cuDNN, Tensorflow-gpu/Keras is not an easy task. We need to figure out how to match driver with hardware, match cuda/cudnn libraries versions(pretty complicated as known), and also need to make sure ML/DL frameworks(e.g., tensorflow) version can be compatible with the installed cuda version, etc. In this article we will introduce how to install Nvidia driver, CUDA, cuDNN, tensorflow-gpu/keras-gpu in Ubuntu 18.04 LTS. The article will cover two ways: one regular way(Method 1) and one simple, easy way(Method 2). Thanks to Anaconda, which makes our life easier!
 
 <!--more-->
 
@@ -135,10 +135,9 @@ $ lspci | grep -i nvidia
 
 - CUDA Compatibility: 
 You need to find compatible driver version for your nvidia graphic card, such as `CUDA 10.0 (10.0.130)	>= 410.48`.
-More details can be found [CUDA Compatibility](https://docs.nvidia.com/deploy/cuda-compatibility/index.html)
+More details can be found [CUDA Compatibility in Nvidia official docs](https://docs.nvidia.com/deploy/cuda-compatibility/index.html).
 
-- Different CUDA versions shown by using `nvcc --version` and `nvidia-smi`: CUDA has 2 primary APIs: the runtime and the driver API. Both have a corresponding version. In my case, I installed latest 430 driver, when use `nvidia-smi`, you can CUDA version is `10.2` and I installed CUDA toolkit 10.0, CUDA version is `10.0` when use `nvcc --version`. More discussions can be found [here]
-(https://stackoverflow.com/questions/53422407/different-cuda-versions-shown-by-nvcc-and-nvidia-smi).
+- Different CUDA versions shown by using `nvcc --version` and `nvidia-smi`: CUDA has 2 primary APIs: the runtime and the driver API. Both have a corresponding version. In my case, I installed latest 430 driver, when use `nvidia-smi`, you can CUDA version is `10.2` and I installed CUDA toolkit 10.0, CUDA version is `10.0` when use `nvcc --version`. More discussions can be found [here](https://stackoverflow.com/questions/53422407/different-cuda-versions-shown-by-nvcc-and-nvidia-smi).
 
 After install driver, we can either use regular way to install CUDA, cuDNN or tensorflow-gpu one by one, or we can install them together while using anaconda. We will regular way first, you can skip this part, directly go to Anoconda part. 
 
