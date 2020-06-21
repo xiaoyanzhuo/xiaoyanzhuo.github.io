@@ -49,19 +49,19 @@ export PAPI_MULTIPLEX=1   # enable PAPI_MULTIPLEX
 After you have set the above path/env, you can start to edit your code. The following code example shows the use of the high-level API by marking a code section (from official docs).
 
 ~~~ c
-#include "papi.h"    # (1)
+#include "papi.h"    //(1)
 
 int main()
 {
-    int retval;      # (2)
+    int retval;      //(2)
 
-    retval = PAPI_hl_region_begin("computation");  # (3)
+    retval = PAPI_hl_region_begin("computation"); //(3)
     if ( retval != PAPI_OK )
         handle_error(1);
 
     /* Do some computation here */
 
-    retval = PAPI_hl_region_end("computation");   # (4)
+    retval = PAPI_hl_region_end("computation");   //(4)
     if ( retval != PAPI_OK )
         handle_error(1);
 }
