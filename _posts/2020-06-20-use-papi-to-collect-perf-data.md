@@ -48,7 +48,7 @@ export PAPI_MULTIPLEX=1   # enable PAPI_MULTIPLEX
 
 After you have set the above path/env, you can start to edit your code. The following code example shows the use of the high-level API by marking a code section (from official docs).
 
-~~~ C
+~~~ c
 #include "papi.h"    # (1)
 
 int main()
@@ -93,7 +93,7 @@ The output file `rank_xxxxx` like:
 
 ~~~
 
-## Convert json-style file to csv
+## Convert json-style output file to csv
 
 The output is json style and here is snippet I use to convert the json output to dataframe and save as .csv file:
 
