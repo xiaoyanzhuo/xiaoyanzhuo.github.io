@@ -27,10 +27,11 @@ Welcome to my blog! My name is Xiaoyan Zhuo. I am a Data Scientist@Micron.
 - Travelling (Nepal, Sri Lanka, Singapore, Thailand, Malaysia...)
 - Marathon, Hiking, Yoga, Badminton
 - Volunteer Activities
-  - Volunteer at Osbourn High School (AI Program)
-  ![vol-high-sch-1](https://github.com/xiaoyanzhuo/xiaoyanzhuo.github.io/blob/master/_posts/about_figures/volunteer-high-school-2.png)
+  - Volunteer at Osbourn High School (AI Program, VA)
   
-  ![vol-high-sch-1](https://github.com/xiaoyanzhuo/xiaoyanzhuo.github.io/blob/master/_posts/about_figures/volunteer-high-school.png)
+  ![vol-high-sch-1](https://raw.githubusercontent.com/xiaoyanzhuo/xiaoyanzhuo.github.io/blob/master/_posts/about_figures/volunteer-high-school-2.png)
+  
+  ![vol-high-sch-1](https://raw.githubusercontent.com/xiaoyanzhuo/xiaoyanzhuo.github.io/blob/master/_posts/about_figures/volunteer-high-school.png)
 
 ## Skills
 
