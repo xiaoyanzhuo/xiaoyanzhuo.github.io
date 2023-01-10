@@ -25,7 +25,6 @@ Welcome to my blog! My name is Xiaoyan Zhuo. I am a Data Scientist@Micron.
 
 ## What I Do for Fun
 - Travelling (Nepal, Sri Lanka, Singapore, Thailand, Malaysia...)
-- Reading, Ukelele
 - Marathon, Hiking, Yoga, Badminton
   - Runner Club Founder
   ![runner-club](https://raw.githubusercontent.com/xiaoyanzhuo/xiaoyanzhuo.github.io/master/_posts/about_figures/runner-club-1.jpg)
@@ -50,3 +49,4 @@ Welcome to my blog! My name is Xiaoyan Zhuo. I am a Data Scientist@Micron.
   
   - Volunteer of Teaching Chinese (Nepal)
   ![vol-ca](https://raw.githubusercontent.com/xiaoyanzhuo/xiaoyanzhuo.github.io/master/_posts/about_figures/teach-chinese-nepal.jpg)
+
