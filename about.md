@@ -19,14 +19,15 @@ Welcome to my blog! My name is Xiaoyan Zhuo. I am a Data Scientist@Micron.
 - GPA: 4.0/4.0, Dean's Scholarship Winner
 
 ## Work Expericence
-- China Mobile (IT Systems, Data Center / Cloud Computing)
+- China Mobile (Data Center / Cloud Computing)
 - PingAn AI Lab in CA, medical image project (Intern)
-- Micron DS, 2020 Intern, join as full-time since Oct 2021)
+- Micron DS (2020 Intern, join as full-time since Oct 2021)
 
 ## What I Do for Fun
 - Travelling (Nepal, Sri Lanka, Singapore, Thailand, Malaysia...)
 - Marathon, Hiking, Yoga, Badminton
   - Runner Club Founder
+  <img class="image image--md" src=""/>
   ![runner-club](https://raw.githubusercontent.com/xiaoyanzhuo/xiaoyanzhuo.github.io/master/_posts/about_figures/runner-club-1.jpg)
   ![run-marathon](https://raw.githubusercontent.com/xiaoyanzhuo/xiaoyanzhuo.github.io/master/_posts/about_figures/marathon-1.jpg)
   ![hiking](https://raw.githubusercontent.com/xiaoyanzhuo/xiaoyanzhuo.github.io/master/_posts/about_figures/hiking.jpg)
