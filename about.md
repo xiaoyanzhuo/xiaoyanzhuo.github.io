@@ -29,9 +29,10 @@ Welcome to my blog! My name is Xiaoyan Zhuo. I am a Data Scientist@Micron.
 - Volunteer Activities
   - Volunteer at Osbourn High School (AI Program, VA)
   
-  ![vol-high-sch-1](https://raw.githubusercontent.com/xiaoyanzhuo/xiaoyanzhuo.github.io/blob/master/_posts/about_figures/volunteer-high-school-2.png)
+  ![vol-high-sch-1](https://raw.githubusercontent.com/xiaoyanzhuo/xiaoyanzhuo.github.io/master/_posts/about_figures/volunteer-high-school-2.png)
   
-  ![vol-high-sch-1](https://raw.githubusercontent.com/xiaoyanzhuo/xiaoyanzhuo.github.io/blob/master/_posts/about_figures/volunteer-high-school.png)
+  ![vol-high-sch-1](https://raw.githubusercontent.com/xiaoyanzhuo/xiaoyanzhuo.github.io/master/_posts/about_figures/volunteer-high-school.png)
+  
 
 ## Skills
 
