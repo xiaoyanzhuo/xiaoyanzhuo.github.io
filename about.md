@@ -27,7 +27,6 @@ Welcome to my blog! My name is Xiaoyan Zhuo. I am a Data Scientist@Micron.
 - Travelling (Nepal, Sri Lanka, Singapore, Thailand, Malaysia...)
 - Marathon, Hiking, Yoga, Badminton
   - Runner Club Founder
-  <img class="image image--md" src=""/>
   ![runner-club](https://raw.githubusercontent.com/xiaoyanzhuo/xiaoyanzhuo.github.io/master/_posts/about_figures/runner-club-1.jpg)
   ![run-marathon](https://raw.githubusercontent.com/xiaoyanzhuo/xiaoyanzhuo.github.io/master/_posts/about_figures/marathon-1.jpg)
   ![hiking](https://raw.githubusercontent.com/xiaoyanzhuo/xiaoyanzhuo.github.io/master/_posts/about_figures/hiking.jpg)
