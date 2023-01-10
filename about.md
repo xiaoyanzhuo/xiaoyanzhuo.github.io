@@ -49,4 +49,7 @@ Welcome to my blog! My name is Xiaoyan Zhuo. I am a Data Scientist@Micron.
   
   - Volunteer of Teaching Chinese (Nepal)
   ![vol-ca](https://raw.githubusercontent.com/xiaoyanzhuo/xiaoyanzhuo.github.io/master/_posts/about_figures/teach-chinese-nepal.jpg)
+  
+- Reading, Ukelele
+![pingpong](https://raw.githubusercontent.com/xiaoyanzhuo/xiaoyanzhuo.github.io/master/_posts/about_figures/ukelele-1.jpg)
 
